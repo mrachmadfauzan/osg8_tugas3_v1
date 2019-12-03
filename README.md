@@ -1,16 +1,15 @@
-# osg8_tugas3_v3
+# Achmad Fauzan (Tugas 3 - OSG 8) 
+Aplikasi Flutter menampilkan daftar menggunakan widget GridView dan halaman detail setelah salah satu item diklik (InkWell) bertemakan Hari Olahraga Nasional
+Materi: ListView, GridView
+Project name: osg8_tugas3_v1
 
-A new Flutter project.
+### Screenshot
+- [Build with Flutter](https://drive.google.com/file/d/1I6sflPo8wiv3g8hqZUlI12-O9U2wqkN2/view?usp=sharing "source: drive.google.com")
 
-## Getting Started
+### Built With
+- Build project with [Flutter](https://flutter.dev)
 
-This project is a starting point for a Flutter application.
+### Created By
+- [Achmad Fauzan](https://github.com/mrachmadfauzan)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Telegram/Whatsapp : [+6281327484385] 

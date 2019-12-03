@@ -138,12 +138,11 @@ class Detail extends StatelessWidget {
                   ),
                 ),
               )),
-
           new BagianNama(
             nama: nama,
           ),
-          // new BagianIcon(),
-          // new Keterangan(),
+          new BagianIcon(),
+          new Keterangan(),
         ],
       ),
     );
@@ -189,6 +188,75 @@ class BagianNama extends StatelessWidget {
             ],
           )
         ],
+      ),
+    );
+  }
+}
+
+class BagianIcon extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: new EdgeInsets.all(10.0),
+      child: new Row(
+        children: <Widget>[
+          new IconTeks(
+            icon: Icons.call,
+            teks: "Call",
+          ),
+          new IconTeks(
+            icon: Icons.message,
+            teks: "Message",
+          ),
+          new IconTeks(
+            icon: Icons.photo,
+            teks: "Photo",
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class IconTeks extends StatelessWidget {
+  IconTeks({this.icon, this.teks});
+  final IconData icon;
+  final String teks;
+
+  @override
+  Widget build(BuildContext context) {
+    return new Expanded(
+      child: new Column(
+        children: <Widget>[
+          new Icon(
+            icon,
+            size: 50.0,
+            color: Colors.blue,
+          ),
+          new Text(
+            teks,
+            style: new TextStyle(color: Colors.blue, fontSize: 18.0),
+          )
+        ],
+      ),
+    );
+  }
+}
+
+class Keterangan extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: new EdgeInsets.all(10.0),
+      child: new Card(
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: new Text(
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            style: new TextStyle(fontSize: 18.0,),
+            textAlign: TextAlign.justify,
+          ),
+        ),
       ),
     );
   }
