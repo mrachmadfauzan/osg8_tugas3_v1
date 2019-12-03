@@ -1,0 +1,109 @@
+name: osg8_tugas3_v3
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - images/0_logo.png
+    - images/grid/1_aceh.png
+    - images/grid/2_bali.png
+    - images/grid/3_banten.png
+    - images/grid/4_bengkulu.png
+    - images/grid/5_gorontalo.png
+    - images/grid/6_jakarta.png
+    - images/grid/7_jambi.png
+    - images/grid/8_jawa_barat.png
+    - images/grid/9_jawa_tengah.png
+    - images/grid/10_jawa_timur.png
+    - images/grid/11_kalimantan_barat.png
+    - images/grid/12_kalimantan_selatan.png
+    - images/grid/13_kalimantan_tengah.png
+    - images/grid/14_kalimantan_timur.png
+    - images/grid/15_kalimantan_utara.png
+    - images/grid/16_kep_bangka_belitung.png
+    - images/grid/17_Kep_riau.png
+    - images/grid/18_lampung.png
+    - images/grid/19_maluku.png
+    - images/grid/20_maluku_utara.png
+    - images/grid/21_ntb.png
+    - images/grid/22_ntt.png
+    - images/grid/23_papua.png
+    - images/grid/24_papua_barat.png
+    - images/grid/25_riau.png
+    - images/grid/26_sulawesi_barat.png
+    - images/grid/27_sulawesi_selatan.png
+    - images/grid/28_sulawesi_tengah.png
+    - images/grid/29_sulawesi_tenggara.png
+    - images/grid/30_sulawesi_utara.png
+    - images/grid/31_sumatra_barat.png
+    - images/grid/32_sumatra_selatan.png
+    - images/grid/33_sumatra_utara.png
+    - images/grid/34_diy.png
+    
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
